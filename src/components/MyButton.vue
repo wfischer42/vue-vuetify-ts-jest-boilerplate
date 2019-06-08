@@ -1,6 +1,6 @@
 <template>
   <button class="button is-primary" @click="onClick">
-    <v-icon>mdi-file-document-edit</v-icon>
+    <v-icon>mdi-progress-wrench</v-icon>
     <slot></slot>
   </button>
 </template>
