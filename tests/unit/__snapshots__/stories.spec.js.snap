@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button with JSX 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <main
+      class="v-content"
+      style="padding: 0px 0px 0px 0px;"
+    >
+      <div
+        class="v-content__wrap"
+      >
+        <button
+          class="button is-primary"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon mdi mdi-progress-wrench theme--light"
+          />
+           With JSX
+        </button>
+      </div>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button with some emoji 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <main
+      class="v-content"
+      style="padding: 0px 0px 0px 0px;"
+    >
+      <div
+        class="v-content__wrap"
+      >
+        <button
+          class="button is-primary"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon mdi mdi-progress-wrench theme--light"
+          />
+           😀 😎 👍 💯
+        </button>
+      </div>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button with text 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <main
+      class="v-content"
+      style="padding: 0px 0px 0px 0px;"
+    >
+      <div
+        class="v-content__wrap"
+      >
+        <button
+          class="button is-primary"
+        >
+          <i
+            aria-hidden="true"
+            class="v-icon mdi mdi-progress-wrench theme--light"
+          />
+           Hello Button
+        </button>
+      </div>
+    </main>
+  </div>
+</div>
+`;
