@@ -12,9 +12,9 @@
           height="200"
         ></v-img>
       </v-flex>
-
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">
+      <v-icon>mdi-file-document-edit</v-icon>
           Welcome to Vuetify
         </h1>
         <p class="subheading font-weight-regular">
@@ -85,7 +85,11 @@
 </template>
 
 <script>
+import { VBtn, VIcon } from 'vuetify/lib';  // <-- add this
+
+// export default Vue.extend({
   export default {
+    components: { VBtn, VIcon }, 
     data: () => ({
       ecosystem: [
         {

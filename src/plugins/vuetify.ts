@@ -1,10 +1,19 @@
 import Vue from 'vue'
-import Vuetify, { VContainer, VLayout, VFlex, VImg } from 'vuetify/lib'
 import '@mdi/font/css/materialdesignicons.css'
+
+import Vuetify, {
+  VApp,
+  VContent,
+  VContainer,
+  VLayout,
+  VFlex,
+  VImg,
+  VIcon,
+} from 'vuetify/lib'
 import 'vuetify/src/stylus/app.styl'
 
 Vue.use(Vuetify, {
-  components: { VContainer, VLayout, VFlex, VImg },
+  components: { VApp, VIcon, VContent, VContainer, VLayout, VFlex, VImg },
   theme: {
     primary: '#ee44aa',
     secondary: '#424242',
