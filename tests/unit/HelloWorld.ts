@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils'
-import HelloWorld from './index.vue'
+import HelloWorld from '@/components/HelloWorld/index.vue'
 import '@/plugins/vuetify'
 
 describe('HelloWorld.vue', () => {

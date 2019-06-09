@@ -4,9 +4,9 @@ import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
 import { withKnobs, text, boolean } from '@storybook/addon-knobs'
 
-import MyButton from '../components/MyButton.vue'
+import MyButton from './index.vue'
 
-const stories = storiesOf('Button', module)
+const stories = storiesOf('MyButton', module)
 
 stories.addDecorator(withKnobs)
 
@@ -15,8 +15,7 @@ stories
     'with text',
     () => ({
       components: { MyButton },
-      template:
-        '<my-button :btnText="text" :isDisabled="isDisabled">{{text}}</my-button>',
+      template: '<my-button :isDisabled="isDisabled">{{text}}</my-button>',
       props: {
         isDisabled: {
           default: boolean('Disabled', true),

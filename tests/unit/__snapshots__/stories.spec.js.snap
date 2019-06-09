@@ -1,6 +1,201 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Button with JSX 1`] = `
+exports[`Storyshots Hello World Default View 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <main
+      class="v-content"
+      style="padding: 0px 0px 0px 0px;"
+    >
+      <div
+        class="v-content__wrap"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="layout text-xs-center wrap"
+          >
+            <div
+              class="flex xs12"
+            >
+              <div
+                class="v-responsive v-image my-3"
+                style="height: 200px;"
+              >
+                <div
+                  class="v-image__image v-image__image--preload v-image__image--contain"
+                  style="background-position: center center;"
+                />
+                <div
+                  class="v-responsive__content"
+                />
+              </div>
+            </div>
+             
+            <div
+              class="flex mb-4"
+            >
+              <h1
+                class="display-2 font-weight-bold mb-3"
+              >
+                Welcome to Vuetify
+              </h1>
+               
+              <p
+                class="subheading font-weight-regular"
+              >
+                
+        For help and collaboration with other Vuetify developers,
+        
+                <br />
+                please join our online
+        
+                <a
+                  href="https://community.vuetifyjs.com"
+                  target="_blank"
+                >
+                  Discord Community
+                </a>
+              </p>
+            </div>
+             
+            <div
+              class="flex mb-5 xs12"
+            >
+              <h2
+                class="headline font-weight-bold mb-3"
+              >
+                What's next?
+              </h2>
+               
+              <div
+                class="layout justify-center"
+              >
+                <a
+                  class="subheading mx-3"
+                  href="https://vuetifyjs.com/components/api-explorer"
+                  target="_blank"
+                >
+                  Explore components
+                </a>
+                <a
+                  class="subheading mx-3"
+                  href="https://vuetifyjs.com/layout/pre-defined"
+                  target="_blank"
+                >
+                  Select a layout
+                </a>
+                <a
+                  class="subheading mx-3"
+                  href="https://vuetifyjs.com/getting-started/frequently-asked-questions"
+                  target="_blank"
+                >
+                  Frequently Asked Questions
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="flex xs12 mb-5"
+            >
+              <h2
+                class="headline font-weight-bold mb-3"
+              >
+                Important Links
+              </h2>
+               
+              <div
+                class="layout justify-center"
+              >
+                <a
+                  class="subheading mx-3"
+                  href="https://vuetifyjs.com"
+                  target="_blank"
+                >
+                  Documentation
+                </a>
+                <a
+                  class="subheading mx-3"
+                  href="https://community.vuetifyjs.com"
+                  target="_blank"
+                >
+                  Chat
+                </a>
+                <a
+                  class="subheading mx-3"
+                  href="https://madewithvuetifyjs.com"
+                  target="_blank"
+                >
+                  Made with Vuetify
+                </a>
+                <a
+                  class="subheading mx-3"
+                  href="https://twitter.com/vuetifyjs"
+                  target="_blank"
+                >
+                  Twitter
+                </a>
+                <a
+                  class="subheading mx-3"
+                  href="https://medium.com/vuetify"
+                  target="_blank"
+                >
+                  Articles
+                </a>
+              </div>
+            </div>
+             
+            <div
+              class="flex xs12 mb-5"
+            >
+              <h2
+                class="headline font-weight-bold mb-3"
+              >
+                Ecosystem
+              </h2>
+               
+              <div
+                class="layout justify-center"
+              >
+                <a
+                  class="subheading mx-3"
+                  href="https://github.com/vuetifyjs/vuetify-loader"
+                  target="_blank"
+                >
+                  vuetify-loader
+                </a>
+                <a
+                  class="subheading mx-3"
+                  href="https://github.com/vuetifyjs/vuetify"
+                  target="_blank"
+                >
+                  github
+                </a>
+                <a
+                  class="subheading mx-3"
+                  href="https://github.com/vuetifyjs/awesome-vuetify"
+                  target="_blank"
+                >
+                  awesome-vuetify
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`Storyshots MyButton with JSX 1`] = `
 <div
   class="application theme--light"
   data-app="true"
@@ -23,9 +218,7 @@ exports[`Storyshots Button with JSX 1`] = `
           <div
             class="v-btn__content"
           >
-            
-  
-  With JSX
+            With JSX
           </div>
         </button>
       </div>
@@ -34,7 +227,7 @@ exports[`Storyshots Button with JSX 1`] = `
 </div>
 `;
 
-exports[`Storyshots Button with some emoji 1`] = `
+exports[`Storyshots MyButton with some emoji 1`] = `
 <div
   class="application theme--light"
   data-app="true"
@@ -57,9 +250,7 @@ exports[`Storyshots Button with some emoji 1`] = `
           <div
             class="v-btn__content"
           >
-            
-  
-  😀 😎 👍 💯
+            😀 😎 👍 💯
           </div>
         </button>
       </div>
@@ -68,7 +259,7 @@ exports[`Storyshots Button with some emoji 1`] = `
 </div>
 `;
 
-exports[`Storyshots Button with text 1`] = `
+exports[`Storyshots MyButton with text 1`] = `
 <div
   class="application theme--light"
   data-app="true"
@@ -92,9 +283,7 @@ exports[`Storyshots Button with text 1`] = `
           <div
             class="v-btn__content"
           >
-            
-  Hello Storybook
-  Hello Storybook
+            Hello Storybook
           </div>
         </button>
       </div>
