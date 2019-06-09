@@ -1,10 +1,9 @@
-<template>
-  <v-btn :disabled="isDisabled" @click="onClick">
-    <slot></slot>
-  </v-btn>
+<template lang="pug">
+  v-btn(v-bind:disabled="isDisabled" @click="onClick")
+    slot
 </template>
 
-<script>
+<script lang="ts">
 import Vue from 'vue'
 
 export default Vue.extend({
