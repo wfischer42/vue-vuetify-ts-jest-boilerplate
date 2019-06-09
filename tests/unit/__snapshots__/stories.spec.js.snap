@@ -17,13 +17,16 @@ exports[`Storyshots Button with JSX 1`] = `
         class="v-content__wrap"
       >
         <button
-          class="button is-primary"
+          class="v-btn theme--light"
+          type="button"
         >
-          <i
-            aria-hidden="true"
-            class="v-icon mdi mdi-progress-wrench theme--light"
-          />
-           With JSX
+          <div
+            class="v-btn__content"
+          >
+            
+  
+  With JSX
+          </div>
         </button>
       </div>
     </main>
@@ -48,13 +51,16 @@ exports[`Storyshots Button with some emoji 1`] = `
         class="v-content__wrap"
       >
         <button
-          class="button is-primary"
+          class="v-btn theme--light"
+          type="button"
         >
-          <i
-            aria-hidden="true"
-            class="v-icon mdi mdi-progress-wrench theme--light"
-          />
-           😀 😎 👍 💯
+          <div
+            class="v-btn__content"
+          >
+            
+  
+  😀 😎 👍 💯
+          </div>
         </button>
       </div>
     </main>
@@ -79,13 +85,17 @@ exports[`Storyshots Button with text 1`] = `
         class="v-content__wrap"
       >
         <button
-          class="button is-primary"
+          class="v-btn v-btn--disabled theme--light"
+          disabled="disabled"
+          type="button"
         >
-          <i
-            aria-hidden="true"
-            class="v-icon mdi mdi-progress-wrench theme--light"
-          />
-           Hello Button
+          <div
+            class="v-btn__content"
+          >
+            
+  Hello Storybook
+  Hello Storybook
+          </div>
         </button>
       </div>
     </main>

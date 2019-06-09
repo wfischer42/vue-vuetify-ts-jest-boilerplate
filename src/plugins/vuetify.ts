@@ -9,11 +9,12 @@ import Vuetify, {
   VFlex,
   VImg,
   VIcon,
+  VBtn,
 } from 'vuetify/lib'
 import 'vuetify/src/stylus/app.styl'
 
 Vue.use(Vuetify, {
-  components: { VApp, VIcon, VContent, VContainer, VLayout, VFlex, VImg },
+  components: { VApp, VIcon, VContent, VContainer, VLayout, VFlex, VImg, VBtn },
   theme: {
     primary: '#ee44aa',
     secondary: '#424242',

@@ -30,7 +30,7 @@ export default {
   components: {
     HelloWorld
   },
-  data () {
+  data() {
     return {
       //
     }
