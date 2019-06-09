@@ -33,7 +33,7 @@ stories
     render() {
       return <my-button onClick={this.action}>With JSX</my-button>
     },
-    methods: { action: linkTo('Button', 'with some emoji') },
+    methods: { action: linkTo('MyButton', 'with some emoji') },
   }))
   .add('with some emoji', () => ({
     components: { MyButton },
